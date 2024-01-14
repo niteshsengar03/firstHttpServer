@@ -73,6 +73,6 @@ The server will be running on http://localhost:3000.
 - DELETE /: Delete unhealthy kidneys (at least one unhealthy kidney must be present).
 
 **Usage**
-##Retrieve Kidney Information
+## Retrieve Kidney Information
 
 
