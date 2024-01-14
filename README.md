@@ -72,7 +72,9 @@ The server will be running on http://localhost:3000.
 - PUT /: Update all kidneys' health status to healthy.
 - DELETE /: Delete unhealthy kidneys (at least one unhealthy kidney must be present).
 
-**Usage**
-## Retrieve Kidney Information
+
+## Usage
+**Retrieve Kidney Information**
+```http
 
 
