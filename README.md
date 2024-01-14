@@ -21,45 +21,12 @@ To get started with this project, follow these steps:
    ```bash
    git clone https://github.com/your-username/hospital-http-server.git
 
-Install dependencies:
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Run the server:**
+   ```bash
+    node server.js
+4.
 
-bash
-Copy code
-npm install
-Run the server:
 
-bash
-Copy code
-node server.js
-The server will be running on http://localhost:3000.
-
-Endpoints
-GET /: Retrieve information about the kidneys.
-POST /:
-Body: { "ishealthy": true }
-Add a new kidney health record.
-PUT /: Update all kidneys' health status to healthy.
-DELETE /:
-Delete unhealthy kidneys (at least one unhealthy kidney must be present).
-Usage
-Retrieve Kidney Information
-http
-Copy code
-GET http://localhost:3000/
-Add New Kidney Health Record
-http
-Copy code
-POST http://localhost:3000/
-Content-Type: application/json
-
-{
-  "ishealthy": true
-}
-Update All Kidneys' Health Status
-http
-Copy code
-PUT http://localhost:3000/
-Delete Unhealthy Kidneys
-http
-Copy code
-DELETE http://localhost:3000/
