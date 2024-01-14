@@ -68,9 +68,11 @@ The server will be running on http://localhost:3000.
 
 **Endpoints**
 - GET /: Retrieve information about the kidneys.
-- POST /:
-- Body: { "ishealthy": true } Add a new kidney health record.
+- POST /: Body: { "ishealthy": true } Add a new kidney health record.
 - PUT /: Update all kidneys' health status to healthy.
 - DELETE /: Delete unhealthy kidneys (at least one unhealthy kidney must be present).
+
+**Usage**
+##Retrieve Kidney Information
 
 
